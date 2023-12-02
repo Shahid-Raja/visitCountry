@@ -127,7 +127,7 @@ class App extends Component {
           <ul className="visited-countries-list">
             {updateList.map(i => (
               <VisitedCountries
-                VisitedCountryDetails={i}
+                visitedCountryDetails={i}
                 key={i.id}
                 deleteVisitCountry={this.deleteVisitCountry}
               />
